@@ -1,70 +1,44 @@
-# GitHub Composite Actions
+# Custom GitHub CI Actions
 
-A collection of reusable GitHub Composite Actions built from scratch to automate CI/CD workflows across multiple repositories. These actions are designed with production-ready practices, modularity, and reusability in mind.
+A collection of reusable GitHub Composite Actions built from scratch to automate Continuous Integration (CI) pipelines. These actions encapsulate common CI tasks into reusable components, enabling consistent, maintainable, and production-ready workflows across multiple repositories.
 
-## What You'll Find
+## Features
 
-This repository contains reusable Composite Actions for:
+- Reusable GitHub Composite Actions
+- Production-ready Shell scripting
+- Modular and maintainable CI automation
+- Easy integration with GitHub Actions workflows
+- Standardized CI pipeline components
+
+## Available Actions
 
 - Checkout source code
+- Set up build environment
 - Build applications
 - Run Shell scripts
-- Package artifacts
-- Upload artifacts to Artifactory
-- Download artifacts from Artifactory
-- Deploy applications
-- Execute pre/post deployment tasks
-- Manage environment variables
-- Validate inputs
-- Security and quality checks
-- Notification integrations
-- Common CI/CD automation tasks
+- Package build artifacts
+- Upload artifacts to JFrog Artifactory
+- Download artifacts from JFrog Artifactory
+- Input validation
+- Common CI utility actions
 
-## Tech Stack
+## Technologies
 
 - GitHub Actions
-- Composite Actions (`action.yml`)
-- Bash / Shell Scripting
+- GitHub Composite Actions
+- Bash / Shell
 - Git
 - JFrog Artifactory
 - Linux
 
-## Repository Structure
-
-```text
-.
-├── checkout/
-├── build/
-├── upload-artifact/
-├── download-artifact/
-├── deploy/
-├── notifications/
-└── README.md
-```
-
-Each directory contains a reusable Composite Action that can be referenced from any GitHub Actions workflow.
-
-## Goals
-
-- Promote reusable CI/CD components
-- Eliminate duplicate workflow logic
-- Standardize automation across repositories
-- Follow production-grade DevOps practices
-- Improve maintainability and scalability
-
 ## Use Cases
 
-- CI/CD pipeline automation
-- Enterprise DevOps workflows
-- Production deployments
-- Multi-repository standardization
-- Platform engineering
-- Interview preparation and learning
+- Enterprise CI pipelines
+- Reusable pipeline components
+- Standardized build automation
+- Production-grade DevOps practices
+- Multi-repository CI automation
 
-## Contributions
+## Goal
 
-Suggestions and improvements are welcome. Feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
+The goal of this repository is to build reusable, production-ready CI actions that minimize duplicated workflow logic and simplify CI pipeline development across projects.
