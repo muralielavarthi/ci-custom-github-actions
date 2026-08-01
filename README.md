@@ -1,4 +1,4 @@
-# Custom GitHub CI Actions
+# CI Custom GitHub Actions
 
 A collection of reusable GitHub Composite Actions built from scratch to automate Continuous Integration (CI) pipelines. These actions encapsulate common CI tasks into reusable components, enabling consistent, maintainable, and production-ready workflows across multiple repositories.
 
@@ -15,7 +15,7 @@ A collection of reusable GitHub Composite Actions built from scratch to automate
 - Checkout source code
 - Set up build environment
 - Build applications
-- Run Shell scripts
+- Execute Shell scripts
 - Package build artifacts
 - Upload artifacts to JFrog Artifactory
 - Download artifacts from JFrog Artifactory
@@ -26,19 +26,50 @@ A collection of reusable GitHub Composite Actions built from scratch to automate
 
 - GitHub Actions
 - GitHub Composite Actions
-- Bash / Shell
+- Bash / Shell Scripting
 - Git
 - JFrog Artifactory
 - Linux
 
+## Repository Structure
+
+```text
+ci-custom-github-actions/
+├── checkout/
+├── build/
+├── upload-to-artifactory/
+├── download-from-artifactory/
+├── validation/
+├── utilities/
+└── README.md
+```
+
 ## Use Cases
 
 - Enterprise CI pipelines
+- Standardized CI automation
 - Reusable pipeline components
-- Standardized build automation
 - Production-grade DevOps practices
 - Multi-repository CI automation
 
 ## Goal
 
-The goal of this repository is to build reusable, production-ready CI actions that minimize duplicated workflow logic and simplify CI pipeline development across projects.
+The goal of this repository is to provide reusable, production-ready GitHub Composite Actions that reduce duplicated workflow logic, improve maintainability, and accelerate CI pipeline development across projects.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit a Pull Request (PR) for:
+
+- Bug fixes
+- New reusable CI actions
+- Feature enhancements
+- Documentation improvements
+- Best practice recommendations
+
+Please ensure your changes are well-tested and follow the existing project structure.
+
+If you find this repository useful, consider giving it a ⭐.
+
+## License
+
+This project is licensed under the MIT License.
